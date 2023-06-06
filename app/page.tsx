@@ -1,3 +1,4 @@
+import Board from '@/components/Board'
 import Header from '@/components/Header'
 import Image from 'next/image'
 
@@ -7,7 +8,7 @@ export default function Home() {
       {/* header */}
       <Header />
       {/* board */}
-      <h1>Trello 2.0 clone</h1>
+      <Board />
     </main>
   )
 }
