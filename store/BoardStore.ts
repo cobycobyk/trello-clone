@@ -40,7 +40,7 @@ export const useBoardStore = create<BoardState>((set, get) => ({
 
   setBoardState: (board) => set({ board }),
 
-  deleteTask: async (taskIndex: Number, todo: Todo, id: TypedColumn) => {
+  deleteTask: async (taskIndex: number, todo: Todo, id: TypedColumn) => {
     const newColumns = new Map(get().board.columns);
     // delete todoId from newColumns
     newColumns.get(id)?.todos.splice(taskIndex, 1);
