@@ -14,7 +14,7 @@ type Props = {
   innerRef: (element: HTMLElement | null) => void;
   draggableProps: DraggableProvidedDraggableProps;
   dragHandleProps: DraggableProvidedDragHandleProps | null | undefined;
-}
+};
 
 function TodoCard({
   todo,
