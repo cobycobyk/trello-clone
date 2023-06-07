@@ -1,4 +1,4 @@
-## Cobtrello Kanban
+## GPTrello Kanban
 
 Live Demo 👉 [https://trello-clone-cobycobyk.vercel.app/](https://trello-clone-cobycobyk.vercel.app/)
 
